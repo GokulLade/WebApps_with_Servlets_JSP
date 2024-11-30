@@ -1,0 +1,41 @@
+package customerinfo;
+
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
+
+import java.io.*;
+
+@WebServlet("/display")
+public class CustomerDetails implements Servlet {
+
+	@Override
+	public void init(ServletConfig arg0) throws ServletException
+	{
+		//no code
+	}
+
+	@Override
+	public void service(ServletRequest req, ServletResponse arg1) throws ServletException, IOException
+	{
+		
+		
+	}
+
+	@Override
+	public void destroy() 
+	{
+		//no code
+	}
+
+	@Override
+	public ServletConfig getServletConfig() 
+	{
+		return null;
+	}
+
+	@Override
+	public String getServletInfo() 
+	{
+		return null;
+	}
+}

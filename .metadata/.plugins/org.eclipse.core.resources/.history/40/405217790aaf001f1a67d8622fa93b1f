@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: #fff;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Book Details Form</h2>
+    <form action="display" method="POST">
+        <label for="bcode">Book Code: </label>
+        <input type="number" id="bcode" name="bcode" required>
+
+        <label for="bname">Book Name: </label>
+        <input type="text" id="bname" name="bname" maxlength="10" required>
+
+        <label for="bauthor">BAUTHOR (VARCHAR2)</label>
+        <input type="text" id="bauthor" name="bauthor" maxlength="10" required>
+
+        <label for="bprice">BPRICE (Number with 2 Decimals)</label>
+        <input type="number" id="bprice" name="bprice" step="0.01" required>
+
+        <label for="bqty">BQTY (Number)</label>
+        <input type="number" id="bqty" name="bqty" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

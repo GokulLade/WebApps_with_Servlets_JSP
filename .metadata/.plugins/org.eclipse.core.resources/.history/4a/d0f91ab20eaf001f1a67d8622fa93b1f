@@ -1,0 +1,8 @@
+package customerinfo;
+
+import jakarta.servlet.*;
+import java.io.*;
+
+public class CustomerDetails {
+
+}

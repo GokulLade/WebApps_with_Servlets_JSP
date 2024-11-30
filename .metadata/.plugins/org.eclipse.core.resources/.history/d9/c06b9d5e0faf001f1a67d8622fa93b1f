@@ -1,0 +1,11 @@
+package customerinfo;
+
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
+
+import java.io.*;
+
+@WebServlet
+public class CustomerDetails {
+
+}

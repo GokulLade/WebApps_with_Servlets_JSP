@@ -1,0 +1,54 @@
+
+Nov 28, 2024 14:39:15.71 NEW SESSION
+Nov 28, 2024 14:39:15.71 [2856:13120:1128/143915.711:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 14:39:16.50 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 28, 2024 14:39:16.50 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 28, 2024 14:39:42.83 [2856:13120:1128/143942.838:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Nov 28, 2024 17:04:13.44 NEW SESSION
+Nov 28, 2024 17:04:13.45 [20692:7972:1128/170413.439:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:04:13.85 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 28, 2024 17:04:13.86 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 28, 2024 17:04:43.83 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 28, 2024 17:04:43.83 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 28, 2024 17:04:43.99 [19368:13356:1128/170443.997:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:05:12.90 [19368:13356:1128/170512.901:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:06:10.48 [19368:13356:1128/170610.486:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:07:33.01 [19368:13356:1128/170733.013:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:11:31.06 [19368:13356:1128/171131.068:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:17:53.83 [19368:13356:1128/171753.837:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:42:23.76 [19892:21180:1128/174223.765:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:42:24.19 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 28, 2024 17:42:24.19 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 28, 2024 17:42:49.84 [19892:21180:1128/174249.849:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:43:37.37 [19892:21180:1128/174337.376:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 28, 2024 17:45:16.84 [19892:21180:1128/174516.839:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Nov 29, 2024 24:56:36.50 NEW SESSION
+Nov 29, 2024 24:56:36.51 [19540:22220:1129/005636.499:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 24:56:36.76 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 29, 2024 24:56:36.77 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 29, 2024 01:13:20.04 [5704:14216:1129/011320.039:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 01:13:20.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 29, 2024 01:13:20.12 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 29, 2024 01:13:46.87 [5704:14216:1129/011346.871:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 01:14:44.82 [5704:14216:1129/011444.824:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 01:17:21.35 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 29, 2024 01:17:21.36 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 29, 2024 01:17:21.60 [16720:7652:1129/011721.602:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 01:22:47.96 [4756:13428:1129/012247.964:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 01:22:48.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 29, 2024 01:22:48.59 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 29, 2024 01:23:12.73 [4756:13428:1129/012312.737:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 01:24:13.22 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 29, 2024 01:24:13.23 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 29, 2024 01:24:13.46 [21600:13392:1129/012413.468:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 01:24:37.03 [21600:13392:1129/012437.029:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Nov 29, 2024 17:38:57.13 NEW SESSION
+Nov 29, 2024 17:38:57.15 [7584:16488:1129/173857.131:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 17:38:57.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 29, 2024 17:38:57.45 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Nov 29, 2024 17:39:25.99 [7584:16488:1129/173925.997:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 17:40:19.93 [7584:16488:1129/174019.933:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Nov 29, 2024 17:42:13.46 [7584:16488:1129/174213.468:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT

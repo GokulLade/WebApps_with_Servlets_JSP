@@ -1,0 +1,9 @@
+package displayinfo;
+
+import jakarta.servlet.Servlet;
+import java.io.PrintWriter;
+
+
+public class BookDetails {
+
+}
