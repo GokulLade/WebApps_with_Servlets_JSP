@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="01_PrintingUserInfo" path="/01_PrintingUserInfo" reloadable="true" source="org.eclipse.jst.jee.server:01_PrintingUserInfo"/><Context docBase="02_ReadDisplayBookDetails" path="/02_ReadDisplayBookDetails" reloadable="true" source="org.eclipse.jst.jee.server:02_ReadDisplayBookDetails"/><Context docBase=" 03_ReadDisplayCustomerDetails" path="/_03_ReadDisplayCustomerDetails" reloadable="true" source="org.eclipse.jst.jee.server: 03_ReadDisplayCustomerDetails"/></Host>
+      <Context docBase="01_PrintingUserInfo" path="/01_PrintingUserInfo" reloadable="true" source="org.eclipse.jst.jee.server:01_PrintingUserInfo"/><Context docBase="02_ReadDisplayBookDetails" path="/02_ReadDisplayBookDetails" reloadable="true" source="org.eclipse.jst.jee.server:02_ReadDisplayBookDetails"/><Context docBase=" 03_ReadDisplayCustomerDetails" path="/_03_ReadDisplayCustomerDetails" reloadable="true" source="org.eclipse.jst.jee.server: 03_ReadDisplayCustomerDetails"/><Context docBase="04_RequestDispatcherApp01" path="/04_RequestDispatcherApp01" reloadable="true" source="org.eclipse.jst.jee.server:04_RequestDispatcherApp01"/></Host>
     </Engine>
   </Service>
 </Server>

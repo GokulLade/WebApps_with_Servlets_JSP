@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>User Input</title>
+	<style type="text/css">
+		body {
+		    font-family: Arial, sans-serif;
+		    background-color: #f9f9f9;
+		    margin: 0;
+		    padding: 0;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    height: 100vh;
+		}
+		
+		form {
+		    background-color: #ffffff;
+		    padding: 20px;
+		    border-radius: 10px;
+		    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		    width: 300px;
+		}
+		
+		form input[type="number"] {
+		    width: calc(100% - 10px);
+		    padding: 10px;
+		    margin: 10px 0;
+		    border: 1px solid #ccc;
+		    border-radius: 5px;
+		    box-sizing: border-box;
+		}
+		
+		form input[type="submit"] {
+		    background-color: #007bff;
+		    color: white;
+		    padding: 10px;
+		    border: none;
+		    border-radius: 5px;
+		    cursor: pointer;
+		    margin: 5px 2px;
+		    width: calc(33% - 8px);
+		    box-sizing: border-box;
+		    transition: background-color 0.3s ease;
+		}
+		
+		form input[type="submit"]:hover {
+		    background-color: #0056b3;
+		}
+	
+	</style>
+</head>
+<body>
+	<form action="choice" method="post">
+		Enter the value-1: <input type="number" name="v1"><br>
+		Enter the value-2: <input type="number" name="v2"><br>
+		
+		<input type="submit" value="Avg" name="s1">
+		<input type="submit" value="Greater" name="s1">
+		<input type="submit" value="smaller" name="s1">
+	</form>
+</body>
+</html>
