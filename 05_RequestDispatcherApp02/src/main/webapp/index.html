@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .calculator-form {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    .calculator-form h1 {
+      font-size: 24px;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+
+    .calculator-form input[type="number"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .calculator-form button {
+      width: 90%;
+      padding: 10px;
+      margin: 5px 0;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .calculator-form button.addition {
+      background-color: #4caf50;
+    }
+
+    .calculator-form button.subtraction {
+      background-color: #f44336;
+    }
+
+    .calculator-form button.multiplication {
+      background-color: #2196f3;
+    }
+
+    .calculator-form button.division {
+      background-color: #ff9800;
+    }
+
+    .calculator-form button.mood {
+      background-color: #9c27b0;
+    }
+
+    .calculator-form button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <form class="calculator-form" action="choice" method="post">
+    <h1>Calculator</h1>
+    <input type="number" name="num1" placeholder="Enter first number" required>
+    <input type="number" name="num2" placeholder="Enter second number" required>
+    <button type="submit" class="addition" name="operation" value="add">Addition</button>
+    <button type="submit" class="subtraction" name="operation" value="subtract">Subtraction</button>
+    <button type="submit" class="multiplication" name="operation" value="multiply">Multiplication</button>
+    <button type="submit" class="division" name="operation" value="divide">Division</button>
+    <button type="submit" class="mood" name="operation" value="mood">Mood</button>
+  </form>
+</body>
+</html>
