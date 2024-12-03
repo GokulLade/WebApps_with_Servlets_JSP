@@ -52,3 +52,25 @@ Nov 29, 2024 17:38:57.45 Attempting to use a delegate that only supports static-
 Nov 29, 2024 17:39:25.99 [7584:16488:1129/173925.997:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
 Nov 29, 2024 17:40:19.93 [7584:16488:1129/174019.933:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
 Nov 29, 2024 17:42:13.46 [7584:16488:1129/174213.468:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Dec 03, 2024 14:06:29.35 NEW SESSION
+Dec 03, 2024 14:06:29.37 [20124:21100:1203/140629.352:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 03, 2024 14:06:30.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 03, 2024 14:06:30.49 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 03, 2024 14:06:58.73 [20124:21100:1203/140658.737:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 03, 2024 14:07:40.33 [20124:21100:1203/140740.335:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 03, 2024 14:09:13.97 [20124:21100:1203/140913.974:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 03, 2024 14:13:06.92 [20124:21100:1203/141306.929:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 03, 2024 14:20:52.07 [20124:21100:1203/142052.079:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 03, 2024 14:33:07.61 [3748:18840:1203/143307.615:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Dec 03, 2024 14:33:08.81 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 03, 2024 14:33:08.82 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 03, 2024 14:33:37.03 [3748:18840:1203/143337.032:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Dec 03, 2024 14:34:24.40 [3748:18840:1203/143424.401:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Dec 03, 2024 14:35:43.07 [3748:3244:1203/143543.076:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token 'H', "HTTP/1.1 4"... is not valid JSON", source: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@ee338c5c68e930761e15c97f5af9d8a082271a88/&targetType=tab&can_dock=true&panel=elements (1)
+Dec 03, 2024 14:36:23.80 [3748:18840:1203/143623.808:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Dec 03, 2024 14:38:50.95 [3748:3244:1203/143850.950:ERROR:CONSOLE(1)] "Unknown VE context: elements.css-hint    at bo.createPopover (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:3:30640)
+Dec 03, 2024 14:38:50.95     at bo.showPopover (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:3:33621)
+Dec 03, 2024 14:38:50.95     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:3:33218", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+Dec 03, 2024 14:39:31.91 [3748:18840:1203/143931.915:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Dec 03, 2024 14:41:00.28 [3748:3244:1203/144100.288:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token 'H', "HTTP/1.1 4"... is not valid JSON", source: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@ee338c5c68e930761e15c97f5af9d8a082271a88/&targetType=tab&can_dock=true&panel=elements (1)
