@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+	div{
+		height:500px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	form{
+	width:400px;
+	display:flex;
+	flex-direction:column;
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 10px gray;
+	border-radius: 7px;
+	}
+	
+	input{
+		padding: 6px;
+	}
+	
+	input[type="submit"]{
+		background-color: rgba(0,0,255,0.7);
+		color:white;
+		border:none;
+		border-radius: 7px;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<form action="userinfo" method="post">
+			<h1>User Information</h1>
+			First Name: <input type="text" name="uFName"><br>
+			Last Name: <input type="text" name="uLName"><br>
+			Age : <input type="number" name="uAge"><br>
+			Email : <input type="text" name="uEmail"><br>
+			Phone Number : <input type="number" name="uPhno"><br>
+			
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
