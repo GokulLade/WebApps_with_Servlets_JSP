@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		.main{
+			height:100vh;
+			display: flex;
+			flex-direction:column;
+			justify-content: center;
+			align-items: center;
+			background-color: rgba(0,0,0,0.05);
+		}
+		
+		h1{
+			border-bottom: 3px solid green;
+		}
+		.sub{
+			display: flex;
+			gap: 10px;
+			padding:60px;
+			border:1px solid black;
+			border-radius:7px;
+			box-shadow: 1px 1px 10px gray;
+			background-color: white;
+		}
+		
+		button{
+			padding: 20px 25px;
+			box-shadow: 0 0 0 0.6px rgba(0, 0, 0, 0.5);
+			border:none;
+			border-radius: 7px;
+		}
+		
+		.btn-1{
+			background-color: orange;
+			transition:1s;
+		}
+		
+		.btn-2{
+			background-color: pink;
+			transition:1s;
+		}
+		
+		.btn-1:hover{
+			cursor: pointer;
+			background-color: black;
+			color:white;
+			transition:1s;
+		}
+		
+		.btn-2:hover{
+			cursor: pointer;
+			background-color: black;
+			color:white;
+			transition:1s;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="main">
+	<h1>Book Details Operation</h1>
+		<div class="sub">
+			<a href="book.html"><button class="btn-1">Add Book Details</button></a>
+			 <a href="view"><button class="btn-2">View Book Details</button> </a>
+		</div>
+	</div>
+
+</body>
+</html>
