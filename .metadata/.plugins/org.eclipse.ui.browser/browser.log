@@ -74,3 +74,10 @@ Dec 03, 2024 14:38:50.95     at bo.showPopover (devtools://devtools/bundled/devt
 Dec 03, 2024 14:38:50.95     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:3:33218", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
 Dec 03, 2024 14:39:31.91 [3748:18840:1203/143931.915:ERROR:registration_request.cc(274)] Registration URL fetching failed.
 Dec 03, 2024 14:41:00.28 [3748:3244:1203/144100.288:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token 'H', "HTTP/1.1 4"... is not valid JSON", source: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@ee338c5c68e930761e15c97f5af9d8a082271a88/&targetType=tab&can_dock=true&panel=elements (1)
+
+Dec 04, 2024 14:50:35.52 NEW SESSION
+Dec 04, 2024 14:50:35.53 [8212:15164:1204/145035.523:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 04, 2024 14:50:37.18 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 04, 2024 14:50:37.32 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 04, 2024 14:51:01.41 [8212:15164:1204/145101.412:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 04, 2024 14:51:57.42 [8212:15164:1204/145157.425:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
