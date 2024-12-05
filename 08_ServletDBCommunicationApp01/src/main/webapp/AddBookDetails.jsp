@@ -29,26 +29,11 @@
             color: #28a745;
             margin-bottom: 20px;
         }
-        a {
-            display: inline-block;
-            text-decoration: none;
-            background-color: #007BFF;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
-        }
-        a:hover {
-            background-color: #0056b3;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Book Details Added Successfully!</h1>
-        <a href="ViewBookDetails.jsp">View Book Details</a>
     </div>
 </body>
 </html>

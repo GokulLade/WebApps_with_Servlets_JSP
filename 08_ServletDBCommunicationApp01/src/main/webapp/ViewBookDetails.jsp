@@ -77,7 +77,9 @@
             <td><%= bb.getQty() %></td>
         </tr>
         <%
+    
             }
+            al.clear();
         %>
     </table>
     <a href="book.html">Add Book Details</a>
