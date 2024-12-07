@@ -9,7 +9,7 @@ import javabean.CustomerDetailBean;
 public class RetrieveByPhNoCustomerDataDAO {
 
 	CustomerDetailBean cb=new CustomerDetailBean();
-	
+	int k=1;
 	public CustomerDetailBean getDataByPhNo(long phno)
 	{
 		try {
@@ -28,6 +28,10 @@ public class RetrieveByPhNoCustomerDataDAO {
 				cb.setEmail(rs.getString(4));
 				
 			}
+			else
+			{
+				k=0;
+			}
 		}
 		catch(Exception e)
 		{
@@ -35,5 +39,10 @@ public class RetrieveByPhNoCustomerDataDAO {
 		}
 		
 		return cb;
+	}
+	
+	public int getResult()
+	{
+		return k;
 	}
 }

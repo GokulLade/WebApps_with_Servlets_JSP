@@ -171,3 +171,17 @@ Dec 06, 2024 17:36:07.20 Created TensorFlow Lite XNNPACK delegate for CPU.
 Dec 06, 2024 17:36:07.22 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
 Dec 06, 2024 17:36:30.42 [5052:9748:1206/173630.428:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
 Dec 06, 2024 17:37:29.67 [5052:9748:1206/173729.671:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Dec 07, 2024 24:09:20.01 NEW SESSION
+Dec 07, 2024 24:09:20.02 [10660:11764:1207/000920.014:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 07, 2024 24:09:20.64 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 07, 2024 24:09:20.65 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 07, 2024 24:09:49.79 [10660:11764:1207/000949.794:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 07, 2024 24:17:29.86 [19864:11736:1207/001729.860:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 07, 2024 24:17:30.55 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 07, 2024 24:17:30.55 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 07, 2024 24:17:52.72 [19864:11736:1207/001752.724:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 07, 2024 24:19:18.86 [4848:19136:1207/001918.863:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 07, 2024 24:19:18.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 07, 2024 24:19:18.94 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 07, 2024 24:19:48.55 [4848:19136:1207/001948.552:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT

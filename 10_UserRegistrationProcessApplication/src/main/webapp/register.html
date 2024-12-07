@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        form input[type="text"],#phone {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form input[type="text"],#phone:focus {
+            border-color: #84fab0;
+            outline: none;
+        }
+
+        form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #84fab0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #72e9a3;
+        }
+    </style>
+</head>
+<body>
+    <form action="register" method="post">
+        <label for="username">User Name:</label>
+        <input type="text" name="name" id="username">
+
+        <label for="password">Password:</label>
+        <input type="text" name="pass" id="password">
+
+        <label for="firstname">First Name:</label>
+        <input type="text" name="fname" id="firstname">
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lname" id="lastname">
+
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+
+        <label for="email">Email-Id:</label>
+        <input type="text" name="email" id="email">
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" name="phno" id="phone">
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
