@@ -1,6 +1,0 @@
-package displayinfo;
-
-import jakarta.servlet.Servlet;
-public class BookDetails {
-
-}

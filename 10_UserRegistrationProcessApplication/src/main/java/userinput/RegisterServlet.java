@@ -5,7 +5,6 @@ import java.io.PrintWriter;
 
 import databaseoperation.AddUserDetailDAO;
 import jakarta.servlet.GenericServlet;
-import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
@@ -19,7 +18,6 @@ public class RegisterServlet extends GenericServlet {
 
 	UserDataBean ub=null;
 	AddUserDetailDAO ad=null;
-	RequestDispatcher rd=null;
 	@Override
 	public void init()
 	{
@@ -42,10 +40,9 @@ public class RegisterServlet extends GenericServlet {
 		
 		if(result>0)
 		{
-			req.setAttribute("username", ub.getUserName());
+			req.setAttribute("msg", "User Registration Successfully");
 			
-			rd=req.getRequestDispatcher("UserRegister.jsp");
-			rd.forward(req, res);
+			req.getRequestDispatcher("Msg.jsp").forward(req, res);
 		}
 		else
 		{
@@ -54,8 +51,7 @@ public class RegisterServlet extends GenericServlet {
 			PrintWriter pw=res.getWriter();
 			pw.print("Something is wrong try again..!");
 			
-			rd=req.getRequestDispatcher("register.html");
-			rd.include(req, res);
+			req.getRequestDispatcher("register.html").include(req, res);
 		}
 		
 	}
