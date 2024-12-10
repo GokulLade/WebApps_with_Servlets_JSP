@@ -6,6 +6,7 @@
   <module moduleId="org.eclipse.jst.jee.server:10_UserRegistrationProcessApplication" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server: 03_ReadDisplayCustomerDetails" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:08_ServletDBCommunicationApp01" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:11_BookStoreManagementApplication" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Application02" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Application01" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07_JSP-ResponseApp02" serverId="Tomcat v10.1 Server at localhost"/>
