@@ -8,10 +8,12 @@ import javabean.UserDataBean;
 
 public class CheckUserLoginDAO {
 
-	UserDataBean ub=null;
+	
 	
 	public UserDataBean checkLogin(String username,String password)
 	{
+		UserDataBean ub=null;
+		
 		try {
 			Connection con=DatabaseConnection.getConnection();
 			PreparedStatement ps= con.prepareStatement("Select * from user68 WHERE uname=? AND pword=?");

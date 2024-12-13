@@ -30,10 +30,9 @@ public class LoginServlet extends HttpServlet{
 		
 		UserDataBean ub=ch.checkLogin(req.getParameter("name"),req.getParameter("pass"));
 		
-		if(!(ub==null))
+		if(ub!=null)
 		{
 			req.setAttribute("username", ub.getFname());
-			
 			ServletContext sct = req.getServletContext(); //Accessing ServletContext object reference
 			sct.setAttribute("ubean", ub);
 			
