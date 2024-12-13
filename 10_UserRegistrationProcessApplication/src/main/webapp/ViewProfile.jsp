@@ -7,6 +7,13 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 	<style>
+		.msg
+		{
+			display: flex;
+			justify-content: center;
+			color: green;
+		}
+	
         table {
             width: 50%;
             border-collapse: collapse;
@@ -37,10 +44,12 @@
 <body>
 
 	<%
-		String fN = (String)request.getAttribute("fname");
+		String msg=(String)request.getAttribute("msg");
+		if(msg==null) msg=" ";
 		UserDataBean ub= (UserDataBean)application.getAttribute("ubean");
 	%>
-	<h2 style="text-align: center;">Page belongs to User: <%= fN %></h2>
+	<h2 style="text-align: center;">Page belongs to User: <%= ub.getFname()%></h2>
+	<p class="msg"><%= msg %></p>
     <table>
         <tr>
             <th>First Name</th>
