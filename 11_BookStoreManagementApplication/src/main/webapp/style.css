@@ -1,73 +1,115 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*---------------- Common Style-------------------*/
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:  #f7f7fb;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/*---------------- Header Section Style-------------------*/
+header{
+	display: flex;
+	justify-content:space-between;
+	height: 75px;
+	background-color: #f3f2f9;
+}
+h2{
+	width: 300px;
+	margin-left: 70px;
+	color: orange;
+}
+ul{
+	width:100%;
+	display: flex;
+	gap:50px;
+	list-style: none;
+	justify-content:flex-end;
+	align-items:center;
+	margin-right: 50px;
+	font-size: 23px;
+}
+li{
+	font-family:serif;
+	font-weight: 400;
+	transition:1s;
 }
 
-/* Body Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-    color: #333;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+li>a:hover{
+	color:orange;
+	transition:1s;
+}
+li>button{
+	padding: 11px 30px;
+	background-color: orange;
+	border-radius: 4px;
+	border:none;
+	box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.5);
+	transition:1s;
+}
+li>button:hover{
+	background-color: #ed9723;
+	transition:1s;
 }
 
-/* Header Styling */
-.header {
-    background: #343a40;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 1rem;
+/*---------------- Home Section Style-------------------*/
+#main{
+	display:flex;
+	height:600px;
+	align-items: center;
+	justify-content: center;
+}
+.main-content{
+	display: flex;
+	flex-direction: column;
+	gap:40px;
+}
+.heading{
+	display:flex;
+	flex-direction:column;
+	gap:1px;
+	font-size: 60px;
+}
+.para{
+	margin-top: -60px;
+	font-size: 40px;
+	text-align: center;
 }
 
-.header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+.login-links{
+	display: flex;
+	gap:70px;
+	justify-content: center;
 }
 
-.header p {
-    font-size: 1.2rem;
-    font-weight: 300;
+.btn{
+	border:1px solid black;
+	padding:20px 45px;
+	border:none;
+	box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	font-size: 20px;
+	color: black;
+	background-color: orange;
+	text-decoration: none;
+	color:blur;
 }
 
-/* Main Content Styling */
-.main-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+.btn:hover{
+	text-decoration: underline;
+	transition:1s;
 }
 
-.login-links {
-    display: flex;
-    gap: 1.5rem;
+/*---------------- Footer Section Style-------------------*/
+.footer{
+	background-color:  #f3f2f9;
+	height: 45px;
+}
+.footer>p{
+	height:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    color: #fff;
-    background: #007bff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-}
-
-.btn:hover {
-    background: #0056b3;
-}
-
-/* Footer Styling */
-.footer {
-    text-align: center;
-    background: #343a40;
-    color: #fff;
-    padding: 1rem;
-    font-size: 0.9rem;
-}
