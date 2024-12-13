@@ -11,4 +11,5 @@
   <module moduleId="org.eclipse.jst.jee.server:Application01" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07_JSP-ResponseApp02" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:06_JSP-ResponseApp01" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:12_ProductManagementSystemApplication" serverId="Tomcat v10.1 Server at localhost"/>
 </modules>
