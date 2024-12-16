@@ -29,10 +29,13 @@
     <fullyQualifiedTypeName name="databaseoperation.UpdateProfileDAO"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.Cookie"/>
-    <fullyQualifiedTypeName name="databaseoperation.DatabaseConnection"/>
     <fullyQualifiedTypeName name="databaseoperation.AdminloginDAO"/>
     <fullyQualifiedTypeName name="javabean.AdminBean"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="databaseoperation.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="userinput.AddProductServlet"/>
     <fullyQualifiedTypeName name="javabean.ProductBean"/>
+    <fullyQualifiedTypeName name="databaseoperation.AddProductDAO"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.ServletException"/>
 </qualifiedTypeNameHistroy>
