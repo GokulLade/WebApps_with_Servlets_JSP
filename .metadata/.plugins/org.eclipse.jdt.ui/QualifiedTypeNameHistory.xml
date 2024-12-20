@@ -21,7 +21,6 @@
     <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="javabean.UserDataBean"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="jakarta.websocket.Session"/>
     <fullyQualifiedTypeName name="javabean.CustomerDataBean"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="databaseoperation.CustomerRegistrationDAO"/>
@@ -33,9 +32,13 @@
     <fullyQualifiedTypeName name="javabean.AdminBean"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="databaseoperation.DatabaseConnection"/>
     <fullyQualifiedTypeName name="userinput.AddProductServlet"/>
     <fullyQualifiedTypeName name="javabean.ProductBean"/>
     <fullyQualifiedTypeName name="databaseoperation.AddProductDAO"/>
     <fullyQualifiedTypeName name="jakarta.servlet.ServletException"/>
+    <fullyQualifiedTypeName name="userinput.ViewAllProductServlet"/>
+    <fullyQualifiedTypeName name="databaseoperation.ViewAllProductsDAO"/>
+    <fullyQualifiedTypeName name="databaseoperation.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="jakarta.websocket.Session"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
