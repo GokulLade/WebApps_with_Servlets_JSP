@@ -10,7 +10,7 @@
 </head>
 <body>
 	<% 
-		AdminBean ab = (AdminBean)session.getAttribute("");
+		AdminBean ab = (AdminBean)session.getAttribute("adminbean");
 		ProductBean pb = (ProductBean)request.getAttribute("pbean");
 		out.println("Page belongs to Admin:"+ab.getFname()+"<br>");
 	%>

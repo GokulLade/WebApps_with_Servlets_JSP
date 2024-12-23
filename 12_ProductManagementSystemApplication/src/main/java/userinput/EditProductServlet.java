@@ -20,6 +20,7 @@ public class EditProductServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
 	{
 		HttpSession hs = req.getSession(false);//Accessing Existing Session
+		
 		if(hs==null) 
 		{
 			req.setAttribute("msg", "Session Expired...<br>");
@@ -28,12 +29,12 @@ public class EditProductServlet extends HttpServlet {
 		else
 		{
 		ArrayList<ProductBean> al = (ArrayList<ProductBean>)hs.getAttribute("alist");
+		System.out.println(al);
 		String pC = req.getParameter("pcode");
 		Iterator<ProductBean> it = al.iterator();
 		
-			while(it.hasNext())
-	
-			{
+		while(it.hasNext())
+		{
 				ProductBean pb = (ProductBean)it.next();
 				if(pC.equals(pb.getCode()))
 				{

@@ -19,6 +19,7 @@
 	out.print("Page Belong to Admin: " + ab.getFname() + "<br>");
 
 	Iterator<ProductBean> it = al.iterator();
+	
 
 	while (it.hasNext()) {
 		ProductBean pb = (ProductBean) it.next();
@@ -27,7 +28,6 @@
 		+ pb.getQty() + "&nbsp;&nbsp;" + "<a href='edit?pcode=" + pb.getCode() + "'>Edit</a>" + "&nbsp;&nbsp;"
 		+ "<a href='delete?pcode=" + pb.getCode() + "'>Delete</a>" + "<br>");
 	}
-	al.clear();
 	%>
 	<br>
 

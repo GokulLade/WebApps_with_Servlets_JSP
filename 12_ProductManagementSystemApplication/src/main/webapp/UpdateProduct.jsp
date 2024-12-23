@@ -14,7 +14,7 @@
 		out.print(msg);
 	%>
 	<a href="product.html">Add Product</a>
-	<a href="product.html">View All Product</a>
+	<a href="view">View All Product</a>
 	<a href="logout" >Logout</a>
 </body>
 </html>
