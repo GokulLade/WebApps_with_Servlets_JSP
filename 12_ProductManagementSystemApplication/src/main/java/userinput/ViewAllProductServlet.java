@@ -16,13 +16,6 @@ import javabean.ProductBean;
 @WebServlet("/view")
 public class ViewAllProductServlet extends HttpServlet
 {
-	public ViewAllProductsDAO vp=null;
-	
-	@Override
-	public void init()
-	{
-		vp=new ViewAllProductsDAO();
-	}
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
 	{
@@ -35,7 +28,7 @@ public class ViewAllProductServlet extends HttpServlet
 		}
 		else
 		{
-			ArrayList<ProductBean> al = vp.retrieve();
+			ArrayList<ProductBean> al = new ViewAllProductsDAO().retrieve();
 			hs.setAttribute("alist", al);
 			req.getRequestDispatcher("ViewAllProducts.jsp").forward(req, res);
 		}
